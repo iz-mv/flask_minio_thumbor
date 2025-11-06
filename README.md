@@ -37,8 +37,8 @@ flask_minio_thumbor/
 │   ├── gallery.html
 │   └── upload.html
 ├── static/
-│   └── style.css
-└── venv/  (virtual environment)
+    └── style.css
+
 ```
 
 ---
