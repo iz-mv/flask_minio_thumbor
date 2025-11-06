@@ -1,0 +1,68 @@
+/* ---------- Общие стили ---------- */
+body {
+  background-color: #181818;
+  color: #f8f9fa;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+/* ---------- Заголовок ---------- */
+h1 {
+  font-weight: 600;
+  text-align: center;
+  color: #ffcc00;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+/* ---------- Кнопка "Upload" ---------- */
+.btn-success {
+  background-color: #ffcc00;
+  border: none;
+  color: #181818;
+  font-weight: 500;
+}
+.btn-success:hover {
+  background-color: #ffd633;
+  color: #000;
+}
+
+/* ---------- Галерея ---------- */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* ---------- Миниатюры ---------- */
+.img-thumbnail {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(255, 204, 0, 0.3);
+}
+
+/* ---------- Модальное окно ---------- */
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+.modal-body img {
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+/* ---------- Ссылки ---------- */
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
