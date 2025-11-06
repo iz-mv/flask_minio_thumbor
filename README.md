@@ -78,7 +78,7 @@ Then open:
 
 ---
 
-## 🧾 License
+## 🧾 Additional Information
 
 This project is for **educational purposes** only.  
 Created by **Mubarakov Islam**.
